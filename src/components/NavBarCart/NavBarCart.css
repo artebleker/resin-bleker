@@ -1,5 +1,7 @@
 .NavBarCart svg{
- 
 font-size: 2rem;
-    
+}
+.ItemListContainer{
+    font-size: 1rem;
+    font-weight:800;
 }
