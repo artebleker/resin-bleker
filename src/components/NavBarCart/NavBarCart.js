@@ -1,9 +1,9 @@
 import { AiOutlineShoppingCart } from 'react-icons/ai'
 import './NavBarCart.css'
   
-function ItemListContainer(props){
+function CantCart(props){
     return(
-    <span className="ItemListContainer rounded-pill d-inline p-2 bg-primary text-white" >{props.cantItem}</span>
+    <span className="CantCart rounded-pill d-inline p-2 bg-primary text-white" >{props.cantItem}</span>
     )
 }
 
@@ -12,7 +12,7 @@ const NavBarCart = ()=>{
 
  <div className="NavBarCart">
      <a className="nav-link active" aria-current="page" href="#"><AiOutlineShoppingCart /></a>
-          <ItemListContainer cantItem="1"/>
+          <CantCart cantItem="1"/>
           </div>
      )
  }
