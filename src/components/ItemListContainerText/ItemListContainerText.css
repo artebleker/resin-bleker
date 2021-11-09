@@ -1,0 +1,6 @@
+.ItemListContainerText ul{
+list-style: none;
+display: flex;
+justify-content: space-around;
+margin: 10px;
+}
