@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBarItem from '../NavBarItem/NavBarItem'
-import NavBarCart from '../NavBarCart/NavBarCart';
+import NavBarCart from '../NavBarCart/NavBarCart'
+import SearchArea from '../SearchArea/SearchArea'
 import sakuraTitulo from '../../assets/img/sakuraTitulo.png'
 import './NavBar.css'
 
@@ -19,6 +20,7 @@ function NavBar() {
             <NavBarItem item="Llaveros" id="#scrollspyHeading3" />
             <NavBarItem item="Articulos" id="#scrollspyHeading4" />
           </ul>
+         <SearchArea />
          <NavBarCart />
         </div>
       </nav>

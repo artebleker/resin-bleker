@@ -24,6 +24,6 @@ const addToCart = ()=>{
         <button onClick={addToCart}>Agregar al Carrito</button>
         </>
     )
-}
+} 
 
 export default ItemCount
