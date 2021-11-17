@@ -1,16 +1,17 @@
-import React from 'react'
+// import React from 'react'
 
 
 
-const addToCart= ()=>{
-    console.log("Hola");
-}
-const AddToCart = () => {
-    return (
-        <div>
-            <button onClick={addToCart}>Agregar al Carrito</button>
-        </div>
-    )
-}
+// const addToCart= (e)=>{
+// e.preventDefault()
+//     console.log("Hola");
+// }
+// const AddToCart = () => {
+//     return (
+//         <div>
+//             <button onClick={addToCart}>Agregar al Carrito</button>
+//         </div>
+//     )
+// }
 
-export default AddToCart
+// export default AddToCart
