@@ -23,4 +23,4 @@ const data = [
     
 ]
 
-module.export = {data}
+module.exports = {data}
